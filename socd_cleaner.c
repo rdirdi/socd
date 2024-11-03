@@ -22,10 +22,10 @@
 
 // This is scuffed. ESC is a scan code, everything else is virtual key codes
 #define KEY_ESC 1
-#define KEY_W 0x57
-#define KEY_A 0x41
-#define KEY_S 0x53
-#define KEY_D 0x44
+#define KEY_ü 0x57
+#define KEY_ö 0x41
+#define KEY_ä 0x53
+#define KEY_# 0x44
 #define KEY_E 0x45
 #define KEY_UP VK_UP
 #define KEY_LEFT VK_LEFT
@@ -47,7 +47,7 @@ int listening_for_esc_bind = 0;
 int real[4]; // whether the key is pressed for real on keyboard
 int virtual[4]; // whether the key is pressed on a software level
 int DEFUALT_DISABLE_BIND = KEY_E;
-int WASD[4] = {KEY_A, KEY_D, KEY_W, KEY_S};
+int WASD[4] = {KEY_ö, KEY_#, KEY_ü, KEY_ä};
 int ARROWS[4] = {KEY_LEFT, KEY_RIGHT, KEY_UP, KEY_DOWN};
 // left, right, up, down
 int CUSTOM_BINDS[4];
